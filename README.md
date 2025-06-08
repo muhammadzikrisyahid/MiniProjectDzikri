@@ -24,9 +24,10 @@ Aplikasi interaktif berbasis **Streamlit** untuk memvisualisasikan data strategi
 ## 🚀 Struktur Aplikasi
 
 zingpop-dashboard/
-├── ZingPop.csv             # Dataset utama
-├── app.py                  # Streamlit app utama
-├── requirements.txt        # Daftar dependensi
-└── README.md               # Dokumentasi proyek
+ZingPop.csv             # Dataset utama
+latihaninteraktif.py    # Streamlit app utama
+requirements.txt        # Daftar dependensi
+README.md               # Dokumentasi proyek
 
 Dashboard ini dirancang untuk membantu pengambilan keputusan strategis berdasarkan data konten dan persepsi audiens di berbagai platform digital.
+*Akses secara cloud :* :https://miniprojectdzikri.streamlit.app 
