@@ -64,7 +64,7 @@ with st.expander("📌 Sentiment Breakdown", expanded=True):
     fig1 = px.bar(sentiment_data, x='Sentiment', y='Count', color='Sentiment', title="Sentiment Breakdown")
     st.plotly_chart(fig1, use_container_width=True)
 
-with st.expander("🔍 AI Insight - Sentiment Breakdown"):
+with st.expander("🔍 Klik disini 👉 AI Insight - Sentiment Breakdown"):
     st.write(get_insights(
         "Sentiment Breakdown",
         sentiment_data,
@@ -79,7 +79,7 @@ with st.expander("📈 Engagement Trend Over Time", expanded=True):
     fig2 = px.line(engagement_trend, x='Date', y='Engagements', title="Engagement Trend Over Time")
     st.plotly_chart(fig2, use_container_width=True)
 
-with st.expander("🔍 AI Insight - Engagement Trend"):
+with st.expander("🔍 Klik disini 👉 AI Insight - Engagement Trend"):
     st.write(get_insights(
         "Engagement Trend Over Time",
         engagement_trend,
@@ -94,7 +94,7 @@ with st.expander("🧭 Platform Engagement", expanded=True):
     fig3 = px.bar(platform_data, x='Engagements', y='Platform', orientation='h', color='Platform', title="Platform Engagements")
     st.plotly_chart(fig3, use_container_width=True)
 
-with st.expander("🔍 AI Insight - Platform Engagement"):
+with st.expander("🔍 Klik disini 👉 AI Insight - Platform Engagement"):
     st.write(get_insights(
         "Platform Engagements",
         platform_data,
@@ -110,7 +110,7 @@ with st.expander("🧪 Media Type Mix", expanded=True):
     fig4 = px.pie(media_mix, values='Count', names='Media_Type', title="Media Type Mix", hole=0.4)
     st.plotly_chart(fig4, use_container_width=True)
 
-with st.expander("🔍 AI Insight - Media Type Mix"):
+with st.expander("🔍 Klik disini 👉 AI Insight - Media Type Mix"):
     st.write(get_insights(
         "Media Type Mix",
         media_mix,
@@ -125,7 +125,7 @@ with st.expander("🌍 Top 5 Locations by Engagement", expanded=True):
     fig5 = px.bar(location_data, x='Engagements', y='Location', orientation='h', color='Location', title="Top 5 Locations by Engagement")
     st.plotly_chart(fig5, use_container_width=True)
 
-with st.expander("🔍 AI Insight - Top Locations"):
+with st.expander("🔍 Klik disini 👉 AI Insight - Top Locations"):
     st.write(get_insights(
         "Top 5 Locations by Engagement",
         location_data,
