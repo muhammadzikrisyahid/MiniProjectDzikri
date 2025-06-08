@@ -23,8 +23,6 @@ Aplikasi interaktif berbasis **Streamlit** untuk memvisualisasikan data strategi
 
 ## 🚀 Struktur Aplikasi
 
-zingpop-dashboard/
-
 ZingPop.csv             # Dataset utama
 
 latihaninteraktif.py    # Streamlit app utama
