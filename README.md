@@ -4,7 +4,7 @@
 
 Aplikasi interaktif berbasis **Streamlit** untuk memvisualisasikan data strategi konten dan produksi media dari kampanye ZingPop. Visualisasi ini membantu memahami tren, engagement, dan efektivitas platform serta media yang digunakan.
 
-## 🔍 Fitur Visualisasi
+## 📔 Fitur Visualisasi
 
 1. **Sentiment Breakdown**  
    Menampilkan distribusi sentimen (Positive, Neutral, Negative) untuk melihat persepsi publik terhadap konten atau brand.
@@ -31,6 +31,6 @@ requirements.txt        # Daftar dependensi
 
 README.md               # Dokumentasi proyek
 
-Dashboard ini dirancang untuk membantu pengambilan keputusan strategis berdasarkan data konten dan persepsi audiens di berbagai platform digital.
-
 **Akses secara cloud :** :https://miniprojectdzikri.streamlit.app 
+
+Dashboard ini dirancang untuk membantu pengambilan keputusan strategis berdasarkan data konten dan persepsi audiens.
